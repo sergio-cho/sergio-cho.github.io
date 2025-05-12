@@ -64,7 +64,15 @@ body {
       transform: translateY(0);
     }
   }
-
+  
+  .aboutme p {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+  }
   section h2 {
     color: #66ccff;
     border-bottom: 1px solid #333;
@@ -102,6 +110,15 @@ body {
     color: #66ccff;
   }
   
+  .contacto div {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+  } 
+
   footer {
     background-color: #1f1f1f;
     padding: 1rem;
